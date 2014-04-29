@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+<logFolder>/Users/qinwei/Desktop/EPG/log/</logFolder>
+<EPGFolder>/Users/qinwei/Desktop/EPG/</EPGFolder>
+<!--
+ 记录上一次更新同步时间
+ -->
+<lastSyncTime></lastSyncTime>
+<!--
+ 更新周期，以秒计算，不得小于600秒
+ -->
+<updatePeriod>3600</updatePeriod>
+
+<!--
+ 更新周期，以秒计算，不得小于600秒
+ -->
+<jdbcUrl>jdbc:mysql://192.168.1.10:3306/union?useUnicode=true&amp;characterEncoding=UTF-8</jdbcUrl>
+<dbuser_name>root</dbuser_name>
+<dbuser_passsword>root</dbuser_passsword>
+</config>
